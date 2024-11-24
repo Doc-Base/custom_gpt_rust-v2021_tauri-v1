@@ -1,6 +1,6 @@
 <p align="center">
   <img alt="Rust & Tauri ChatGPT Assistant Logo" height="128" src="logo.webp" />
-  <h1 align="center">Rust & Tauri ChatGPT Assistant</h1>
+  <h1 align="center">Rust v2021 & Tauri v1 ChatGPT Assistant</h1>
 
 </p>
 <p align="center">

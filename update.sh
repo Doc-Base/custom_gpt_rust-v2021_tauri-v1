@@ -61,7 +61,7 @@ echo "==========================================================================
 echo "[ARCHIVING] Generating Custom GPT Knowledge Base..."
 rm -Rf ./*.tar.gz
 version_tag=$(date "+%Y.%m.%d")
-archive_name="custom_gpt_rust_tauri_knowledge_base-v${version_tag}.tar.gz"
+archive_name="custom_gpt_rust-v2021_tauri-v1_knowledge_base-v${version_tag}.tar.gz"
 pushd ./.output
 tar -czf "${archive_name}" *
 popd
