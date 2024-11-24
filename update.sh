@@ -50,6 +50,8 @@ sleep 1 # Wait for the filesystem to catch up
     find ./.output -type f -name "*.md" | grep -v 'README.md' | while read -r src_file; do
         # Get the relative file path
         relative_path="${src_file/.\//}"
+        relative_path="${relative_path/.output\//}"
+
         # Format as markdown link
         echo "- [${relative_path}](${relative_path})"
     done
